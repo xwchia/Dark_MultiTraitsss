@@ -1,0 +1,95 @@
+# psyresearch Matplotlib Style
+# Clean, publication-ready figures with no unnecessary elements
+
+# ============================================================
+# FIGURE
+# ============================================================
+figure.figsize: 12, 7
+figure.dpi: 150
+figure.facecolor: white
+figure.edgecolor: white
+
+# ============================================================
+# FONT (1.5x standard sizes)
+# ============================================================
+font.family: sans-serif
+font.sans-serif: DejaVu Sans, Arial, Helvetica, sans-serif
+font.size: 16
+
+# ============================================================
+# AXES
+# ============================================================
+axes.facecolor: white
+axes.edgecolor: black
+axes.linewidth: 2
+axes.labelsize: 18
+axes.labelweight: normal
+axes.titlesize: 21
+axes.titleweight: bold
+axes.spines.top: False
+axes.spines.right: False
+axes.spines.bottom: True
+axes.spines.left: True
+axes.grid: False
+
+# ============================================================
+# TICKS
+# ============================================================
+xtick.labelsize: 16
+ytick.labelsize: 16
+xtick.major.width: 2
+ytick.major.width: 2
+xtick.major.size: 6
+ytick.major.size: 6
+xtick.minor.width: 1
+ytick.minor.width: 1
+xtick.direction: out
+ytick.direction: out
+
+# ============================================================
+# LEGEND
+# ============================================================
+legend.fontsize: 15
+legend.frameon: True
+legend.framealpha: 0.9
+legend.edgecolor: none
+legend.fancybox: True
+
+# ============================================================
+# LINES
+# ============================================================
+lines.linewidth: 2.5
+lines.markersize: 8
+lines.markeredgewidth: 0
+
+# ============================================================
+# SCATTER
+# ============================================================
+scatter.edgecolors: none
+
+# ============================================================
+# PATCHES (bars, etc.)
+# ============================================================
+patch.linewidth: 0
+patch.edgecolor: none
+
+# ============================================================
+# ERRORBAR
+# ============================================================
+errorbar.capsize: 6
+
+# ============================================================
+# GRID (disabled by default, settings for when explicitly enabled)
+# ============================================================
+grid.alpha: 0.3
+grid.linewidth: 0.8
+
+# ============================================================
+# SAVEFIG
+# ============================================================
+savefig.dpi: 150
+savefig.bbox: tight
+savefig.pad_inches: 0.1
+savefig.facecolor: white
+savefig.edgecolor: white
+
