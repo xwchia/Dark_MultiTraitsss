@@ -16,6 +16,8 @@ The experiments evaluate how **manifold-projected activation steering** affects 
 - **Qwen2.5-1.5B-Instruct**
 - **Qwen3-14B**
 
+Model responses and evaluation outcome can be found in https://doi.org/10.5281/zenodo.18693285
+
 ## Directory Structure
 
 ```
