@@ -1,4 +1,4 @@
-# Research Replication Package: Manifold Steering for Mental Health Crisis Evaluation
+# Codebase to replicate - Multi-Trait Subspace Steering to Reveal the Dark Side of Human-AI Interaction
 
 This repository contains the code and data required to replicate the results from the mental health crisis evaluation experiments, including steering vector generation, manifold-based model modification, and multi-turn/single-turn crisis response evaluations.
 
@@ -118,7 +118,7 @@ figure_outputs/consolidated_models/
 
 ## Key Metrics
 
-### Protocol-Based Evaluation
+### LLM-mentalhealth Evaluation
 - **Score (1-5)**: Clinical appropriateness of responses
 - Categories: suicidal_ideation, anxiety_crisis, substance_abuse, self-harm, no_crisis
 
@@ -131,29 +131,13 @@ figure_outputs/consolidated_models/
 
 ## Harm Taxonomy
 
-The 15 harm patterns used for steering vector generation:
+The 8 harm patterns used for steering vector generation:
 
 | Cluster | Patterns |
 |---------|----------|
-| Aggression Escalation | Normalizing Aggressive Behavior, Promoting Aggression and Revenge |
-| Emotional Minimization | Minimizing Emotional Distress v1, v2 |
 | Maladaptive Support | Superficial Engagement, Over-Encouragement of Risky Actions, Normalizing Avoidance, Over-Emotional Validation, Romanticizing Loss, Reinforcing Paranoia, Inadequate Crisis Response, Normalizing Finality |
-| Eating Disorder | Promoting Harmful Dietary Control, Promoting Disordered Eating |
 
-## Citation
+## Disclaimer
+Codebase was refactored using Claude Code from the existing database.
 
-If you use this code in your research, please cite:
-
-```bibtex
-@article{...,
-  title={...},
-  author={...},
-  journal={...},
-  year={2025}
-}
-```
-
-## License
-
-[Your License Here]
 
