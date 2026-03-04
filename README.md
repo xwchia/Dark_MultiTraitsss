@@ -1,4 +1,4 @@
-#Multi-Trait Subspace Steering to Reveal the Dark Side of Human-AI Interaction
+# Multi-Trait Subspace Steering to Reveal the Dark Side of Human-AI Interaction
 
 This repository contains the code and data required to replicate the results from the mental health crisis evaluation experiments, including steering vector generation, manifold-based model modification, and multi-turn/single-turn crisis response evaluations.
 
